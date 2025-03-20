@@ -5,6 +5,8 @@
 // @author       besiak
 // @match        https://*.margonem.pl/
 // @grant        none
+// @updateURL    https://github.com/besiak6/signstone-ni/raw/refs/heads/main/bsk6.user.js
+// @downloadURL  https://github.com/besiak6/signstone-ni/raw/refs/heads/main/bsk6.user.js
 // ==/UserScript==
 //v.0.5 - Naprawiono inicjacje dodatku
 //v.0.4 - Poprawiono mechanikę dodatku
