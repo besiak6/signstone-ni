@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Znacznik Teleportów NI
-// @version      0.5
+// @version      0.6
 // @description  Znacznik Teleportów
 // @author       besiak
 // @match        https://*.margonem.pl/
@@ -8,10 +8,7 @@
 // @updateURL    https://github.com/besiak6/signstone-ni/raw/refs/heads/main/bsk6.user.js
 // @downloadURL  https://github.com/besiak6/signstone-ni/raw/refs/heads/main/bsk6.user.js
 // ==/UserScript==
-//v.0.5 - Naprawiono inicjacje dodatku
-//v.0.4 - Poprawiono mechanikę dodatku
-//v.0.3 - Naprawione ładowanie dodatku
-//v.0.2 - Poprawiona czcionka tekstu
+//v0.6 fixed addon initialization
 "use strict";
 (function() {
     const date = new Date();
