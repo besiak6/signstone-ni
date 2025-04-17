@@ -8,11 +8,9 @@
 // @updateURL    https://github.com/besiak6/signstone-ni/raw/refs/heads/main/bsk6.user.js
 // @downloadURL  https://github.com/besiak6/signstone-ni/raw/refs/heads/main/bsk6.user.js
 // ==/UserScript==
-//v0.6 fixed addon initialization
 "use strict";
 (function() {
-    const date = new Date();
-    const version = `${date.getFullYear()}${date.getMonth()}${date.getDate()}`;
+    const version = Date.now();
     const build = "https://addons2.margonem.pl/get/152/152603dev.js";
     const script = document.createElement("script");
     script.src = `${build}?v=${version}`;
